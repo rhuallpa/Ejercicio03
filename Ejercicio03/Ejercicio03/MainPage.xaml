@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio03"
+             x:Class="Ejercicio03.MainPage">
+
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="Item3" Text="Datepicker" BackgroundColor="LightSalmon"/>
+            <Button x:Name="Item14" Text="ListviewSource" BackgroundColor="Salmon"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+                <Button x:Name="Item1" Text="ButtonDemo" BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item2" Text="ButtonCode"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item4" Text="EditorDemo"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item5" Text="EditorCode"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item6" Text="EntryDemo"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item7" Text="EntryCode"  BackgroundColor="DeepSkyBlue"/>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="Item8" Text="LabelDemo"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item9" Text="LabelCode"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item10" Text="LocalImage"  BackgroundColor="DeepSkyBlue"/>
+                <Button x:Name="Item11" Text="EmbeddedImage"  BackgroundColor="DeepSkyBlue"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
